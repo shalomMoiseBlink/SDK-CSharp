@@ -24,7 +24,7 @@ This C Sharp SDK provides an easy method to integrate with the payment gateway.
 Instantiate the Gateway object ensuring you pass in your Merchant ID and secret key.
 
 ```
-var gateway = new Gateway("100856", "Circle4Take40Idea", "https://gateway.cardstream.com/direct/" )
+var gateway = new Gateway("233508", "<T4NW>)dic", "https://gateway2.blinkpayment.co.uk/direct/" )
 ```
 
 This is a minimal object creation, but you can also override the default _direct_, _hosted_ and _merchant password_ fields, should you need to. The object also supports HTTP proxying if you require it. Take a look at Gateway.cs to see the full method signatures
